@@ -23,9 +23,10 @@ function johnLennonFacts (facts) {
 
 function iLoveTheBeatles (n) {
   var love  = []
+  const i = n
 
   do {
-    love[n] = "I love the Beatles!"
+    love[n-i] = "I love the Beatles!"
     n++
   } while (n<15)
 
