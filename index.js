@@ -20,3 +20,12 @@ function johnLennonFacts (facts) {
 
   return exclaimedFacts
 }
+
+function iLoveTheBeatles (n) {
+  var i = 0
+  var love  = []
+
+  do {
+    love[i] = "I love the Beatles!"
+  } while (i<15)
+}
