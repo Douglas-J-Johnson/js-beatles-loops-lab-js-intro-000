@@ -28,4 +28,6 @@ function iLoveTheBeatles (n) {
   do {
     love[i] = "I love the Beatles!"
   } while (i<n)
+
+  return love
 }
