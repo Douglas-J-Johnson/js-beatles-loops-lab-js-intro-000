@@ -15,4 +15,6 @@ function johnLennonFacts (facts) {
   while (i<facts.length) {
     exclaimedFacts[i] = `${facts[i]}!!!`
   }
+
+  return exclaimedFacts
 }
